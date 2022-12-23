@@ -1,0 +1,17 @@
+﻿  Source.cpp
+D:\visual studio\ОСИ лабы\матрицы\матрицы\Source.cpp(10,27): warning C4018: <: несоответствие типов со знаком и без знака
+D:\visual studio\ОСИ лабы\матрицы\матрицы\Source.cpp(12,27): warning C4018: <: несоответствие типов со знаком и без знака
+D:\visual studio\ОСИ лабы\матрицы\матрицы\Source.cpp(13,31): warning C4018: <: несоответствие типов со знаком и без знака
+D:\visual studio\ОСИ лабы\матрицы\матрицы\Source.cpp(14,42): warning C4244: +=: преобразование "_Ty" в "int", возможна потеря данных
+          with
+          [
+              _Ty=__int64
+          ]
+D:\visual studio\ОСИ лабы\матрицы\матрицы\Source.cpp(54,69): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+D:\visual studio\ОСИ лабы\матрицы\матрицы\Source.cpp(54,45): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+D:\visual studio\ОСИ лабы\матрицы\матрицы\Source.cpp(55,71): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+D:\visual studio\ОСИ лабы\матрицы\матрицы\Source.cpp(55,46): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+D:\visual studio\ОСИ лабы\матрицы\матрицы\Source.cpp(71,70): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+D:\visual studio\ОСИ лабы\матрицы\матрицы\Source.cpp(71,46): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+D:\visual studio\ОСИ лабы\матрицы\матрицы\Source.cpp(77,13): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+  матрицы.vcxproj -> D:\visual studio\ОСИ лабы\матрицы\Debug\матрицы.exe
