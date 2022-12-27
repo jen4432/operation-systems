@@ -16,7 +16,7 @@ void find_next_prime(int n,int& result) {
 	
 	bool prime = true;
 	while (!flag) {
-		for (int i = 2; i < sqrt(n); i++) {
+		for (int i = 2; i <= sqrt(n); i++) {
 			if (n % i == 0) {
 				prime = false;
 				break;
