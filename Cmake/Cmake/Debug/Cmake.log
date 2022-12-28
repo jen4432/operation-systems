@@ -1,0 +1,3 @@
+﻿ThreadSafeStack.obj : error LNK2005: "public: int __thiscall ThreadSafeStack::Pop(bool &)" (?Pop@ThreadSafeStack@@QAEHAA_N@Z) уже определен в Solver.obj
+ThreadSafeStack.obj : error LNK2005: "public: void __thiscall ThreadSafeStack::Push(int)" (?Push@ThreadSafeStack@@QAEXH@Z) уже определен в Solver.obj
+D:\visual studio\operation-systems\Cmake\Debug\Cmake.exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более

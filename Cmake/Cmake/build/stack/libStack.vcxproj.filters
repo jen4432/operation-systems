@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\visual studio\operation-systems\Cmake\Cmake\stack\src\ThreadSafeStack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\visual studio\operation-systems\Cmake\Cmake\stack\include\ThreadSafeStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\visual studio\operation-systems\Cmake\Cmake\stack\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A2110A0A-6589-3DB8-9FF0-BEEBC1EE5726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EE7BB6D0-A498-3DAE-BE2F-854AB5A3C5DF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,6 @@
+D:/visual studio/operation-systems/Cmake/Cmake/build/CMakeFiles/Find_Prime.dir
+D:/visual studio/operation-systems/Cmake/Cmake/build/CMakeFiles/ALL_BUILD.dir
+D:/visual studio/operation-systems/Cmake/Cmake/build/CMakeFiles/ZERO_CHECK.dir
+D:/visual studio/operation-systems/Cmake/Cmake/build/stack/CMakeFiles/libStack.dir
+D:/visual studio/operation-systems/Cmake/Cmake/build/stack/CMakeFiles/ALL_BUILD.dir
+D:/visual studio/operation-systems/Cmake/Cmake/build/Solver/CMakeFiles/libSolver.dir
