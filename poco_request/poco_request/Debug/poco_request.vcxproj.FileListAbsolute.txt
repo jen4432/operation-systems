@@ -1,0 +1,1 @@
+D:\visual studio\operation-systems\poco_request\poco_request\Debug\poco_request.vcxproj.CopyComplete
