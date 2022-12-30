@@ -9,7 +9,7 @@ class RWLock {
 public:
     template<class Func>
     void read(Func func) {
-        unique_lock<mutex> lock(mut);
+        unique_lock<mutex> lock(read_);
         read_.lock();
         while (writer_waiting > 0 || writer_active == true) {
             cv.wait(lock);
@@ -27,7 +27,7 @@ public:
 
     template<class Func>
     void write(Func func) {
-        unique_lock<mutex> lock(write_);
+        unique_lock<mutex> lock(read_);
         read_.lock();
         writer_waiting++;
         while (writer_waiting > 0 || writer_active == true) {
@@ -48,8 +48,6 @@ private:
     int writer_waiting = 0;
     bool writer_active = false;
     std::mutex read_;
-    std::mutex write_;
-    std::mutex mut;
     std::condition_variable cv;
 
 };
@@ -57,4 +55,5 @@ private:
 int main() {
     RWLock rw;
     std :: cout << "yes";
+    cout << "no";
 }
