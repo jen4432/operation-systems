@@ -9,9 +9,10 @@ class RWLock {
 public:
     template<class Func>
     void read(Func func) {
+        unique_lock<mutex> lock(wirte_);
         read_.lock();
         while (wraiter_waiting > 0 || writer_active) {
-            cv.wait();
+            cv.wait(lock);
         }
         readers_active++;
         read_.unlock();
@@ -35,7 +36,7 @@ public:
         wraiter_waiting--;
         writer_active = true;
         read_.unlock();
-        
+        func();
         read_.lock();
         writer_active = false;
         cv.notify_one();
@@ -48,7 +49,7 @@ private:
     bool writer_active = false;
     std::mutex read_;
     std::mutex write_;
-    int blocked_readers_ = 0;
+    std::mutex mut;
     std::condition_variable cv;
 
 };
