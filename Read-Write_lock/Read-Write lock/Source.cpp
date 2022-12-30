@@ -30,7 +30,7 @@ public:
         unique_lock<mutex> lock(read_);
         read_.lock();
         writer_waiting++;
-        while (writer_waiting > 0 || writer_active == true) {
+        while (readers_active > 0 || writer_active == true) {
             cv.wait(lock);
         }
         writer_waiting--;
